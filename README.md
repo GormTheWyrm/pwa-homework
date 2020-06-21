@@ -33,5 +33,7 @@ To use, simply type the name and amount of the transaction in the correct boxes 
 <br>
 The app will store the changes made in the mongoDB database while online and in the IndexedDB browser storage if the app goes offline. Upon returning online the app should update the database and clear the values from the IndexedDB browser storage. 
 
-## contributors
+## Contributors
 This application was mostly designed by Trilogy Education Services. I just connected the Indexed DB code as part of a class assignment.
+
+
