@@ -1,7 +1,5 @@
 let transactions = [];
 let myChart;
-// need to define saveRecord
-
 
 
 fetch("/api/transaction")
@@ -139,10 +137,8 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
-    saveRecord(transaction);
+    saveRecord(transaction);  //BIG ERROR HERE
 
-
-// this must be where I need to add code!
 
 
     // clear form
