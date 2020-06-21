@@ -37,3 +37,8 @@ The app will store the changes made in the mongoDB database while online and in 
 This application was mostly designed by Trilogy Education Services. I just connected the Indexed DB code as part of a class assignment.
 
 
+
+## current issues  
+need to figure out a service worker and web manifest...
+...check week 18 lecture for how to make a service worker.js and a web manifest
+...23_miniproject(?) for info... and watch video
